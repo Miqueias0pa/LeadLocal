@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aumente suas vendas e conquiste mais clientes com a Lead Local. Domine o Google Meu Negócio e lidere sua região." />
+  <title>Lead Local | Domine o Local. Venda Mais.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+      scroll-behavior: smooth;
+    }
+    body {
+      background: linear-gradient(135deg, #f5f0e6, #e2e2e2);
+      color: #1a1a1a;
+    }
+    header {
+      background: linear-gradient(to right, #2f2f2f, #3d3d3d);
+      color: #fff;
+      padding: 4rem 2rem;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out forwards;
+    }
+    h1 {
+      font-size: 4rem;
+      font-weight: 800;
+    }
+    nav {
+      background-color: #1a1a1a;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      font-weight: 600;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #f4d35e;
+    }
+    section {
+      max-width: 1000px;
+      margin: 4rem auto;
+      padding: 2rem;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+      animation: fadeUp 1s ease-in-out;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #2a2a2a;
+    }
+    p, li {
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+    ul {
+      margin-top: 1rem;
+      list-style: none;
+    }
+    li::before {
+      content: "\2714\0020";
+      color: #27ae60;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 3rem;
+    }
+    .cta a {
+      background-color: #2f2f2f;
+      color: #fff;
+      padding: 1rem 2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    .cta a:hover {
+      background-color: #27ae60;
+    }
+    footer {
+      background-color: #1a1a1a;
+      color: #f0f0f0;
+      text-align: center;
+      padding: 3rem 2rem;
+      margin-top: 4rem;
+    }
+    footer a {
+      color: #f4d35e;
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(-20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LeadLocal</h1>
+    <p style="font-size: 1.5rem; margin-top: 1rem;">Domine sua cidade. Aumente suas vendas. Apareça primeiro no Google.</p>
+  </header>
+  <nav>
+    <a href="#servicos">Serviços</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="servicos">
+    <h2>Nossos Serviços</h2>
+    <ul>
+      <li>Otimização completa do seu perfil no Google Meu Negócio</li>
+      <li>Gestão de avaliações e reputação online</li>
+      <li>Relatórios mensais com insights de crescimento</li>
+      <li>Destaque nas buscas locais com estratégia f*da</li>
+      <li>Consultoria para aumentar sua presença digital</li>
+    </ul>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre a LeadLocal</h2>
+    <p>A gente não faz mágica. Faz resultado. A LeadLocal é a empresa que faz o seu negócio sair do anonimato e se tornar referência. Não usamos fotos clichê nem papo de coach. Usamos estratégia, inteligência local e dados.</p>
+  </section>
+
+  <section id="contato">
+    <h2>Fale com a gente</h2>
+    <p>Quer dominar a sua cidade? A gente te mostra como. Fala com a gente agora:</p>
+    <ul>
+      <li><strong>WhatsApp:</strong> <a href="https://wa.me/5512991976776" target="_blank">+55 12 99197-6776</a></li>
+      <li><strong>Email:</strong> <a href="mailto:leadlocalempresa@gmail.com">leadlocalempresa@gmail.com</a></li>
+    </ul>
+    <div class="cta">
+      <a href="https://wa.me/5512991976776" target="_blank">Chamar no WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Lead Local. Todos os direitos reservados.</p>
+    <p>
+      <a href="#servicos">Serviços</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </p>
+  </footer>
+</body>
+</html>
